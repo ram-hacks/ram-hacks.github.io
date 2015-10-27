@@ -15,6 +15,31 @@ a {
   a:hover {
     text-decoration: underline; }
 
+#navigation {
+	position: absolute;
+	top: 1;
+	width: 100%;
+	color: #ffffff;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	/* Adds the transparent background */
+	/* background-color: rgba(1, 1, 1, 0.8); */
+	color: rgba(1, 1, 1, 0.8);
+}
+#navigation a {
+	font-size: 14px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;	
+}
+
+#navigation a:hover {
+	color: grey;
+} 
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
